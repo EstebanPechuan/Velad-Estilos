@@ -1,0 +1,38 @@
+@import url('../fonts.css');
+@import url('../variables.css');
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.about-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-us h2 {
+    text-align: right;
+    color: var(--color-principal-dorado);
+    margin-bottom: 50px;
+    font-family: 'Arial-MT-Bold';
+    font-size: 40px;
+}
+
+.about-card {
+    width: 280px;
+    padding: 30px;
+    background: rgba(116, 172, 221, 0.2);
+    text-align: center;
+    color: #656565;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-card i {
+    color: var(--color-principal-azul);
+    font-size: 80px;
+    margin-bottom: 20px;
+}

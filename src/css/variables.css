@@ -1,0 +1,10 @@
+:root {
+    --color-principal-azul: #00557E;
+    --color-principal-dorado: #A39161;
+    --color-secundario-azul: #74ACDD;
+    --color-secundario-dorado: #FBBA00;
+    
+    --altura-nav: 90px;
+
+    --fondo-hero-inicio: linear-gradient(270.02deg, rgba(0, 0, 0, 0) 0.02%, rgba(0, 0, 0, 0.5) 99.98%, rgba(0, 0, 0, 0.9) 99.98%, rgba(0, 0, 0, 0.9) 99.98%), url('../../img/Mtto2.jpg');
+}

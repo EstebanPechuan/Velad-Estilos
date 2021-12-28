@@ -1,0 +1,38 @@
+@import url('../fonts.css');
+@import url('../variables.css');
+
+/* Imagenes de fondo */
+.hero-inicio {
+    background: var(--fondo-hero-inicio);
+}
+
+
+/* Estilos en general */
+.seccion-hero {
+    width: 100%;
+    height: calc(100vh - var(--altura-nav));
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.hero-info {
+    width: 500px;
+    margin: 80px;
+}
+
+.hero-info h2 {
+    color: var(--color-secundario-dorado) !important;
+    font-family: 'Arial-MT-Bold';
+    font-size: 35px;
+}
+
+.hero-info p {
+    color: #fff !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 17px;
+}
