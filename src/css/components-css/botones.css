@@ -1,0 +1,64 @@
+@import url('../fonts.css');
+@import url('../variables.css');
+
+
+.botones {
+    padding: 50px;
+}
+
+.btn-veladero {
+    width: 215px;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-fill-yellow {
+    background: var(--color-secundario-dorado);
+    border: 2px solid var(--color-secundario-dorado);
+    color: var(--color-principal-azul);
+}
+
+.btn-ghost-yellow {
+    background: #fff;
+    border: 2px solid var(--color-secundario-dorado);
+    color: var(--color-secundario-dorado);
+}
+
+.card-veladero {
+    width: 520px;
+    background: #fff;
+    box-shadow: 0 2px 2px #0004;
+    border-radius: 7px;
+    margin: 10px;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.card-veladero img {
+    width: 35px;
+    aspect-ratio: 1/1;
+    background: var(--color-principal-azul) !important;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+.card-veladero .card-veladero-titulo {
+    margin-left: 20px;
+    border: 2px solid #fff;
+
+    display: flex;
+    align-items: center;
+}
+
+.card-veladero:hover .card-veladero-titulo {
+    border: 2px solid var(--color-principal-dorado);
+}
+
+.card-veladero .card-veladero-titulo h4 {
+    margin: 0;
+}

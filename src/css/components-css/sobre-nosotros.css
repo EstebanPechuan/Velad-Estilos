@@ -2,7 +2,7 @@
 @import url('../variables.css');
 
 .about-us {
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 50px 0;
 }
@@ -10,8 +10,8 @@
 .about-cards {
     width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    /* gap: 20px; */
 }
 
 .about-us h2 {
