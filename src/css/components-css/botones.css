@@ -26,7 +26,8 @@
 }
 
 .card-veladero {
-    width: 520px;
+    max-width: 400px;
+    height: 75px;
     background: #fff;
     box-shadow: 0 2px 2px #0004;
     border-radius: 7px;
@@ -35,7 +36,6 @@
     
     display: flex;
     justify-content: start;
-    align-items: center;
 }
 
 
@@ -48,17 +48,32 @@
 }
 
 .card-veladero .card-veladero-titulo {
-    margin-left: 20px;
-    border: 2px solid #fff;
-
+    width: 100%;
+    height: 100% !important;
+    padding-left: 20px;
+    color: var(--color-principal-dorado);
+    border: 1px solid #fff;
+    border-radius: 0 7px 7px 0;
+    
     display: flex;
     align-items: center;
 }
 
 .card-veladero:hover .card-veladero-titulo {
-    border: 2px solid var(--color-principal-dorado);
+    border: 1px solid var(--color-principal-dorado);
+    border-left: 1px solid #fff;
 }
 
 .card-veladero .card-veladero-titulo h4 {
     margin: 0;
+}
+
+.card-active {
+    background: var(--color-principal-azul);
+    border: 2px solid var(--color-principal-azul) !important;
+}
+
+.card-active .card-veladero-titulo {
+    color: #fff !important;
+    border: 2px solid var(--color-principal-azul) !important;
 }
