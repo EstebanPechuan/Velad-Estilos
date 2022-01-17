@@ -1,38 +1,74 @@
 @import url('../fonts.css');
 @import url('../variables.css');
 
-/* Imagenes de fondo */
-.hero-inicio {
-    background: var(--fondo-hero-inicio);
-}
-
-
 /* Estilos en general */
 .seccion-hero {
     width: 100%;
-    height: calc(100vh - var(--altura-nav));
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-position: center;
+    height: auto;
+    min-height: calc(100vh - 90px);
+    padding: 40px 70px;
 
     display: flex;
-    justify-content: start;
-    align-items: end;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero-img {
+    width: 55%;
+    height: 100%;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero-info {
-    width: 500px;
-    margin: 80px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .hero-info h2 {
-    color: var(--color-secundario-dorado) !important;
+    color: var(--color-principal-dorado) !important;
     font-family: 'Arial-MT-Bold';
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .hero-info p {
-    color: #fff !important;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 17px;
+    color: #000 !important;
+    font-size: 18px;
+    line-height: 1.5;
+    /* margin-top: 5px; */
+    height: auto;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.parrafo-info-click { 
+    height: auto !important;
+    transition: 0.4s;
+}
+
+.mostrar-texto {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: lighter;
+    color: #0009;
+    display: none;
+}
+
+.mostrar-texto-click {
+    display: block;
+}
+
+.ver-mas {
+    background: transparent;
+    border: none;
+    color: #FBBA00;
+    font-size: 18px;
+    margin: auto;
 }
