@@ -65,6 +65,45 @@
     display: block;
 }
 
+
+
+.about-us {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.about-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.about-us h2 {
+    text-align: right;
+    color: var(--color-principal-dorado);
+    margin-bottom: 50px;
+    font-family: 'Arial-MT-Bold';
+    font-size: 40px;
+}
+
+.about-card {
+    width: 280px;
+    padding: 30px;
+    background: rgba(116, 172, 221, 0.2);
+    text-align: center;
+    color: #656565;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-card i {
+    color: var(--color-principal-azul);
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+
 .ver-mas {
     background: transparent;
     border: none;
@@ -73,9 +112,61 @@
     margin: auto;
 }
 
-
 /* Noticias */
 
+
+
+/* Oportunidades Laborales */
+.entre-secciones {
+    width: 100%;
+    padding: 64px 150px;
+    background: var(--color-secundario-gris);
+
+    display: flex;
+}
+
+.entre-secciones .entre-secciones-card {
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.entre-secciones .entre-secciones-info {
+    width: 55%;
+    height: 100%;
+    padding: 35px 38px;
+    text-align: right;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.entre-secciones .entre-secciones-card h3 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.entre-secciones .entre-secciones-card p {
+    color: #0008;
+}
+
+.entre-secciones .entre-secciones-img {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.entre-secciones .entre-secciones-card .entre-secciones-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 
 /* Camaras en VIVO */
