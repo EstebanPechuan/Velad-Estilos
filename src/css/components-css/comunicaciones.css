@@ -21,8 +21,9 @@
 
 .noticias-individual {
     width: 40%;
-    height: 90vh;
-    background: var(--color-principal-azul);
+    height: 100vh;
+    background: rgba(0, 85, 126, 0.3);
+    border-right: 2px solid rgba(0, 85, 126, 0.5);
     position: sticky;
     top: 0;
 }
