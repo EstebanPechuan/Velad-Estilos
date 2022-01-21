@@ -95,6 +95,16 @@ footer .footer-contacto .menu-footer-contacto li a {
     font-weight: normal;
 }
 
+footer .footer-contacto .submenu-footer-contacto li {
+    position: relative;
+    left: -40px;
+    margin: 10px 0;
+}
+
+footer .footer-contacto .submenu-footer-contacto li i {
+    font-size: 16px;
+    margin-right: 20px;
+}
 
 .footer-bottom {
     width: 100%;
@@ -132,7 +142,7 @@ footer .footer-contacto .menu-footer-contacto li a {
     justify-content: flex-end;
 }
 
-.footer-bottom .footer-redes i {
+footer i {
     color: #fff;
     font-size: 20px;
     padding: 5px;

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Veladero</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../src/img/fav.png">
+
+    <!-- Estilos Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Icons BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Icons Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!-- Estilos Veladero -->
+    <link rel="stylesheet" href="../../src/css/style.css">
+</head>
+
+<body>
+
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../../src/img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                OPORTUNIDADES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="oportunidades.html">Inicio oportunidades</a></li>
+                                <li><a class="dropdown-item" href="#">Subí tu curriculum</a></li>
+                                <li><a class="dropdown-item" href="propuestas_laborales.html">Oportunidades laborales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                SUSTENTABILIDAD
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../sustentabilidad/desarrollo_sustentable.html">Desarrollo sustentable</a></li>
+                                <li><a class="dropdown-item" href="../sustentabilidad/seguridad_salud.html">Seguridad y Salud</a></li>
+                                <li><a class="dropdown-item" href="../sustentabilidad/medioambiente.html">Medioambiente</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../comunicaciones/comunicaciones.html">COMUNICACIONES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PROVEEDORES
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../proveedores/documentacion_importante.html">Documentación importante</a></li>
+                                <li><a class="dropdown-item" href="../proveedores/soporte_proveedores.html">Soporte para proveedores</a></li>
+                                <li><a class="dropdown-item" href="../proveedores/consulta_recepciones.html">Consulta de recepciones</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="oportunidades-hero">
+        <div class="oport-intro">
+            <h1>Oportunidades laborales</h1>
+            <p>Si trabajas día a día por desafiarte y tenés cultura del trabajo en equipo, Veladero tiene oportunidades
+                para vos.</p>
+        </div>
+    </section>
+
+    <!-- <button class="btn-veladero btn-fill-yellow">Ver oportunidades</button>
+		<button class="btn-veladero btn-ghost-yellow">Ver oportunidades</button> -->
+
+    <section class="oport-buttons">
+        <div class="card-veladero">
+            <img src="../../src/img/iconos/documento.svg" alt="">
+            <div id="iniciarSesion" class="card-veladero-titulo">
+                <h4>Subí tu currículum</h4>
+            </div>
+        </div>
+
+        <div class="card-veladero">
+            <a href="propuestas_laborales.html">
+                <img src="../../src/img/iconos/obrero.svg" alt="">
+                <div class="card-veladero-titulo">
+                    <h4>Oportunidades laborales</h4>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Modal w3school -->
+
+    <!-- The Modal Iniciar Sesión-->
+    <div id="myModal1" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-curriculum">
+                <h2>Iniciar sesión</h2>
+                <p>Si es la primera vez que ingresas, hacé click en "Registrarse". completá el formulario y se creará el
+                    usuario.</p>
+
+                <form action="" method="POST">
+                    <div class="modal-iniciar-inputs">
+                        <input type="number" placeholder="Documento" min="0" max="100000000" required>
+                        <input type="password" placeholder="Contraseña" required>
+                    </div>
+                    <input id="adjuntar" class="btn-veladero btn-fill-yellow" type="button" value="Continuar">
+                </form>
+
+                <div class="contrasena-registracion">
+                    <a href="#c">Olvidé mi contraseña</a>
+                    <a href="#c" id="registracion">¿Aún no tienes cuenta? ¡Registrate!</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- The Modal Registración-->
+    <div id="myModal2" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close2">&times;</span>
+            <div class="modal-curriculum">
+                <h2>Registrarse</h2>
+                <p>Al completar el formulario se creará el usuario y se enviará un mail con una contraseña aleatoria.
+                </p>
+
+                <form action="" method="POST">
+                    <div class="modal-iniciar-inputs">
+                        <input type="number" placeholder="Documento" min="0" max="100000000" required>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="modal-iniciar-inputs">
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="text" placeholder="Apellido" required>
+                    </div>
+                    <div class="modal-buttons-registro">
+                        <input class="btn-veladero btn-fill-yellow" type="submit" value="Continuar">
+                        <input id="cancelarRegistro" class="btn-veladero btn-ghost-yellow" type="button"
+                            value="Cancelar">
+                    </div>
+                </form>
+
+                <div class="contrasena-registracion">
+                    <a id="volverIniciarSesion" href="#c">Ya tienes cuenta? ¡Inicia Sesión!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- The Modal Adjuntar Archivo-->
+    <div id="myModal3" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close3">&times;</span>
+            <div class="modal-curriculum">
+                <h2>¡Bienvenido!</h2>
+                <p>Adjunta tu currículum y dejanos una nota con el porqué te gustaría fromar parte de Veladero.</p>
+
+                <p>¡Te deseamos suerte en tu búsqueda!</p>
+
+                <form action="" method="POST">
+                    <div class="modal-iniciar-inputs">
+                        <label for="file">
+                            <i class='bx bx-paperclip bx-rotate-270'></i>Adjuntar curriculum
+                        </label>
+                        <input type="file" id="file" required>
+                    </div>
+                    <div class="modal-iniciar-inputs">
+                        <textarea name="" id="" rows="3" placeholder="Me quiero postular a Veladero porque..."
+                            required></textarea>
+                    </div>
+                    <div class="modal-buttons-registro">
+                        <input class="btn-veladero btn-fill-yellow" type="submit" value="Enviar">
+                        <input id="cancelarRegistro2" class="btn-veladero btn-ghost-yellow" type="button" value="Volver">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-head">
+            <div class="footer-menu">
+                <ul class="menu-footer-head">
+                    <li>
+                        Oportunidades Laborales
+                        <ul class="submenu-footer-head">
+                            <li><a href="#">Subí tu currículum</a></li>
+                            <li><a href="#">Trabajá con nosotros</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Sustentabilidad
+                        <ul class="submenu-footer-head">
+                            <li><a href="#">Desarrollo Sustentable</a></li>
+                            <li><a href="#">Seguridad y salud</a></li>
+                            <li><a href="#">Medioambiente</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Comunicaciones
+                        <ul class="submenu-footer-head">
+                            <li><a href="#">Programa de visitas</a></li>
+                            <li><a href="#">Noticias</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Proveedores
+                        <ul class="submenu-footer-head">
+                            <li><a href="#">Documentación importante</a></li>
+                            <li><a href="#">Soporte para proveedores</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contacto">
+                <ul class="menu-footer-contacto">
+                    <li>
+                        San Juan
+                        <ul class="submenu-footer-contacto">
+                            <li><i class='bx bxs-phone'></i><a href="#">+ 54 264 -4298100</a></li>
+                            <li><i class='bx bxs-map'></i><a href="#c">Francisco Villagra 531, Trinidad, San Juan -
+                                    Argentina</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Oficina Iglesia
+                        <ul class="submenu-footer-contacto">
+                            <li><i class='bx bxs-phone'></i><a href="#">+54 2647 -493-180</a></li>
+                            <li><i class='bx bxs-map'></i><a href="#c">Santo Domingo S/N°, Rodeo - Iglesia, San Juan -
+                                    Argentina</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Oficina Jáchal
+                        <ul class="submenu-footer-contacto">
+                            <li><i class='bx bxs-phone'></i><a href="#">+54 2647 -420277</a></li>
+                            <li><i class='bx bxs-map'></i><a href="#c">Calle Rivadavia N°557, San José de Jáchal, San
+                                    Juan - Argentina</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logos">
+                <a href="http://barrick.com">
+                    <img src="../../src/img/logos/barrick-logo-white.png" alt="Logo Barrick">
+                </a>
+                <a href="http://en.sdhjgf.com.cn/">
+                    <img src="../../src/img/logos/shandong-logo-white.svg" alt="Shandong Logo">
+                </a>
+            </div>
+            <p>© 2021 Veladero</p>
+            <div class="footer-redes">
+                <a href="https://twitter.com/MinaVeladero">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://www.facebook.com/MinaVeladero">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.instagram.com/mina.veladero/">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.linkedin.com/company/veladero/">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="../../src/js/main.js"></script>
+
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Script Modal Iniciar Sesión -->
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal1");
+        var volverIniciarSesion = document.getElementById("volverIniciarSesion");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("iniciarSesion");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on the button, open the modal
+        btn.onclick = function () {
+            modal.style.display = "flex";
+            modal2.style.display = "none";
+        }
+        volverIniciarSesion.onclick = function () {
+            modal.style.display = "flex";
+            modal2.style.display = "none";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        } 
+    </script>
+
+
+
+    <!-- Script Modal Registrarte -->
+    <script>
+        // Get the modal
+        var modal2 = document.getElementById("myModal2");
+
+        // Get the button that opens the modal
+        var btnRegistro = document.getElementById("registracion");
+        var cancelar = document.getElementById("cancelarRegistro");
+
+        // Get the <span> element that closes the modal
+        var span2 = document.getElementsByClassName("close2")[0];
+
+        // When the user clicks on the button, open the modal
+        btnRegistro.onclick = function () {
+            modal2.style.display = "flex";
+            modal.style.display = "none";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span2.onclick = function () {
+            modal2.style.display = "none";
+        }
+        cancelar.onclick = function () {
+            modal2.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+        } 
+    </script>
+
+
+    <!-- Script Modal Adjuntar Archivo -->
+    <script>
+        // Get the modal
+        var modal3 = document.getElementById("myModal3");
+
+        var cancelar2 = document.getElementById("cancelarRegistro2");
+
+        // Get the button that opens the modal
+        var btnAdjuntar = document.getElementById("adjuntar");
+
+        // Get the <span> element that closes the modal
+        var span3 = document.getElementsByClassName("close3")[0];
+
+        // When the user clicks on the button, open the modal
+        btnAdjuntar.onclick = function () {
+            modal3.style.display = "flex";
+            modal2.style.display = "none";
+            modal.style.display = "none";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span3.onclick = function () {
+            modal3.style.display = "none";
+        }
+        cancelar2.onclick = function () {
+            modal3.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal3) {
+                modal3.style.display = "none";
+            }
+        } 
+    </script>
+</body>
+
+</html>

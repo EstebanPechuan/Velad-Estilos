@@ -2,7 +2,7 @@
 @import url('../variables.css');
 
 /* Estilos en general */
-.seccion-hero {
+.home-hero {
     width: 100%;
     height: auto;
     min-height: calc(100vh - 90px);
@@ -32,7 +32,7 @@
     flex-direction: column;
 }
 
-.hero-info h2 {
+.hero-info h1 {
     color: var(--color-principal-dorado) !important;
     font-family: 'Arial-MT-Bold';
     font-size: 40px;
@@ -154,6 +154,10 @@
 
 .entre-secciones .entre-secciones-card p {
     color: #0008;
+}
+
+.entre-secciones .entre-secciones-card a {
+    text-align: center;
 }
 
 .entre-secciones .entre-secciones-img {

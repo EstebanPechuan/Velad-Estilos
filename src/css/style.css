@@ -1,8 +1,12 @@
 @import url('fonts.css');
 @import url('variables.css');
 @import url('components-css/header-footer.css');
-@import url('components-css/hero.css');
-@import url('components-css/botones.css');
+@import url('components-css/home.css');
+@import url('components-css/oportunidades.css');
+@import url('components-css/sustentabilidad.css');
+@import url('components-css/comunicaciones.css');
+@import url('components-css/proveedores.css');
+@import url('components-css/componentes.css');
 
 *,
 *::before,

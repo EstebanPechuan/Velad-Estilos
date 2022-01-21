@@ -1,0 +1,15 @@
+@import url('../fonts.css');
+@import url('../variables.css');
+
+.proveedores-hero {
+    width: 100%;
+    height: calc(100vh - 100px);
+    padding: 40px 100px;
+    background: url('../../img/proveedores.png'), linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
