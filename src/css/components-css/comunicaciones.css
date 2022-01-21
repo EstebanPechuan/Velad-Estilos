@@ -22,7 +22,7 @@
 .noticias-individual {
     width: 40%;
     height: 100vh;
-    background: rgba(0, 85, 126, 0.3);
+    background: rgba(0, 85, 126, 0.5);
     border-right: 2px solid rgba(0, 85, 126, 0.5);
     position: sticky;
     top: 0;
@@ -34,6 +34,20 @@
     display: flex;
     flex-wrap: wrap;
     row-gap: 20px;
+}
+
+.card-programa {
+    width: 100%;
+    padding: 30px 50px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-programa .img-card-programa {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
 }
 
 .card-noticias {
@@ -56,11 +70,14 @@
     object-fit: cover;
 }
 
-.card-noticias h2 {
+.card-noticias h2,
+.card-programa h2 {
+    color: #000 !important;
     font-family: 'Arial-MT-Bold';
 }
 
-.card-noticias p {
+.card-noticias p,
+.card-programa {
     font-size: 14px;
     color: #0009;
 }
