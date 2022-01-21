@@ -36,12 +36,13 @@
     color: var(--color-principal-dorado) !important;
     font-family: 'Arial-MT-Bold';
     font-size: 40px;
+    line-height: 1;
 }
 
 .hero-info p {
     color: #000 !important;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.2;
     /* margin-top: 5px; */
     height: auto;
     overflow: hidden;
