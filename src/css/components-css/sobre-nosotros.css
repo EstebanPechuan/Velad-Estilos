@@ -1,38 +1,79 @@
 @import url('../fonts.css');
 @import url('../variables.css');
+@import url('../components-css/w3school.css');
 
-.about-us {
-    width: 90%;
-    margin: auto;
-    padding: 50px 0;
-}
-
-.about-cards {
+.nosotros-tabs {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    /* gap: 20px; */
+    padding: 20px 70px;
 }
 
-.about-us h2 {
-    text-align: right;
-    color: var(--color-principal-dorado);
-    margin-bottom: 50px;
-    font-family: 'Arial-MT-Bold';
+.nosotros-tabs h1 {
+    padding: 30px 0;
     font-size: 40px;
+    color: var(--color-secundario-dorado);
+    text-align: right;
+    font-family: 'Arial-MT-Bold';
 }
 
-.about-card {
-    width: 280px;
-    padding: 30px;
-    background: rgba(116, 172, 221, 0.2);
-    text-align: center;
-    color: #656565;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.nosotros-tabs .tab {
+    width: 100%;
+    background: transparent;
+    border: none;
 }
 
-.about-card i {
-    color: var(--color-principal-azul);
-    font-size: 80px;
-    margin-bottom: 20px;
+.tab .tab-shadow {
+    display: inline;
+    filter: drop-shadow(-2px 2px 2px #0006) !important;
+}
+
+.tablinks {
+    width: 24%;
+    height: 70px;
+    padding-left: 3% !important;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 90% 0%, 100% 50%, 90% 100%, 0 100%, 10% 50%);
+    text-align: left;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.tablinks::before {
+    width: 100%;
+    height: 100%;
+    background: #fff !important;
+    font-size: 20px;
+    font-family: 'Arial-MT-Bold';
+    clip-path: polygon(0 0, 90% 0%, 100% 50%, 90% 100%, 0 100%, 10% 50%);
+    position: absolute;
+    top: 0;
+    right: 40px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-shadow:nth-child(1) .tablinks::before {
+    content: 'PROSPECCIÓN';
+}
+
+.tab-shadow:nth-child(2) .tablinks::before {
+    content: 'EXPLORACIÓN';
+}
+
+.tab-shadow:nth-child(3) .tablinks::before {
+    content: 'CONSTRUCCIÓN';
+}
+
+.tab-shadow:nth-child(4) .tablinks::before {
+    content: 'PRODUCCIÓN';
+}
+
+.tabcontent {
+    /* border: none; */
+}
+
+.nosotros-slider {
+    width: 80%;
 }
