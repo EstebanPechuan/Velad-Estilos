@@ -83,7 +83,7 @@
     width: 25%;
     height: calc(100vh - 100px);
     padding: 50px 30px;
-    background: #ddd;
+    background: rgba(0, 85, 126, 0.15);
     position: sticky;
     top: 100px;
 }
