@@ -1,0 +1,170 @@
+@import url('../fonts.css');
+@import url('../variables.css');
+
+.hero-abastecimiento {
+    width: 100%;
+    padding: 0 150px;
+}
+
+.abastecimiento-video {
+    width: 100%;
+    height: 500px;
+    background: #ccc;
+}
+
+.abastecimiento-video video {
+    width: 100%;
+    height: 100%;
+}
+
+.info-abastecimiento {
+    width: 100%;
+    padding: 50px 70px;
+}
+
+.info-abastecimiento h2 {
+    color: var(--color-principal-dorado);
+    font-family: 'Arial-MT-Bold';
+    margin: 20px 0;
+}
+
+.info-abastecimiento .fotos-noticia {
+    margin-top: 50px;
+}
+
+
+.tablas-preventivo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.estadisticas-total {
+    width: 70%;
+}
+
+.tablas-preventivo table {
+    width: 100%;
+}
+
+.tablas-preventivo table tbody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.tablas-preventivo tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.estadisticas-total tr {
+    border: 2px solid var(--color-principal-azul);
+}
+
+.estadisticas-total tr th,
+.estadisticas-total tr td {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    padding: 10px 0;
+}
+
+.estadisticas-total tr th {
+    background: var(--color-principal-azul);
+}
+
+.estadisticas-total tr td {
+    color: var(--color-principal-azul);
+}
+
+
+.recup-activos {
+    width: 40%;
+}
+
+.recup-activos table {
+    width: 100%;
+}
+
+.recup-activos tr {
+    border: 2px solid var(--color-principal-dorado);
+}
+
+.recup-activos tr th,
+.recup-activos tr td {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.recup-activos tr th {
+    background: var(--color-principal-dorado);
+}
+
+.recup-activos tr td {
+    color: var(--color-principal-dorado);
+}
+
+
+.descargas {
+    width: 100%;
+    background: #f8f8f8 !important;
+    margin-bottom: 20px;
+}
+
+.descargas a {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.descargas .desc-info > * {
+    margin: 0;
+    padding: 0;
+}
+
+.descargas .desc-info h4 {
+    color: #132231;
+}
+
+.descargas .desc-info p {
+    color: #0007;
+    font-size: 14px;
+}
+
+
+span.color-dorado {
+    color: var(--color-principal-dorado);
+}
+
+
+.compromisos-veladero {
+    columns: 2;
+    column-gap: 30px;
+}
+
+
+.infografia-img {
+    width: 100%;
+}
+
+.infografia-img img {
+    width: 100%;
+}
+
+.infografia-img figcaption {
+    padding: 20px 0;
+}

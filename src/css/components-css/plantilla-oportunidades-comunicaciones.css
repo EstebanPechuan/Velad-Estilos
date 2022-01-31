@@ -143,3 +143,29 @@
     height: 100%;
     object-fit: cover;
 }
+
+
+/* Programa visitas */
+
+.programa-visitas .plantilla-oport-left {
+    width: 100% !important;
+}
+
+.programa-visitas h2 {
+    color: var(--color-principal-dorado);
+}
+
+.programa-visitas .fotos-noticia {
+    width: 100%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.programa-visitas .fotos-noticia .cada-foto-noticia div {
+    width: 100%;
+    padding: 20px;
+    background: var(--color-principal-azul);
+    color: #fff;
+}
