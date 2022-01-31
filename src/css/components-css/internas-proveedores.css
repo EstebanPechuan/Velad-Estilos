@@ -1,0 +1,59 @@
+@import url('../fonts.css');
+@import url('../variables.css');
+
+.gestion-credenciales .card-veladero-titulo {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding-left: 0;
+    border-radius: 7px;
+    padding: 0 30px !important;
+}
+
+.gestion-credenciales .card-veladero-titulo h4 {
+    margin: 0 !important;
+    color: #132231;
+}
+
+.card-active .card-veladero-titulo h4 {
+    color: #fff !important;
+}
+
+.gestion-credenciales .card-veladero-titulo p {
+    margin: 0 !important;
+    color: var(--color-secundario-dorado);
+}
+
+
+.gestion-credenciales .card-veladero:hover .card-veladero-titulo {
+    border: 1px solid var(--color-principal-dorado);
+}
+
+.oportunidades-acordeon {
+    width: 100%;
+    padding: 30px 50px;
+}
+
+.oport-desplegable.video {
+    width: 100%;
+    display: flex;
+}
+
+.oport-desplegable video {
+    width: 800px;
+    height: 500px;
+    margin: auto !important;
+    background: #ccc;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.oport-desplegable {
+    display: none !important;
+}
+
+.oport-desplegable-active {
+    display: block !important;
+}
