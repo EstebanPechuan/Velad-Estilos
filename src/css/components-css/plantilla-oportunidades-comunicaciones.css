@@ -115,7 +115,7 @@
     font-family: 'Arial-MT-Bold';
 }
 
-.info-comunicaciones h2 {
+.plantilla-oportunidad h2 {
     padding-bottom: 10px;
     font-family: 'Arial-MT-Bold';
     color: var(--color-principal-azul);
@@ -155,17 +155,99 @@
     color: var(--color-principal-dorado);
 }
 
+
+
+.info-requisitos {
+    margin-bottom: 50px;
+}
+
+.info-requisitos-cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 200px; */
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-requisitos-cards .requisitos-card {
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px;
+    background: #00557E10;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #0003;
+    text-align: center;
+    color: #0008;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-requisitos-cards .requisitos-card img {
+    padding-bottom: 20px;
+}
+
+
 .programa-visitas .fotos-noticia {
     width: 100%;
-    margin-bottom: 50px;
+    height: 200px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
+.programa-visitas .fotos-noticia .cada-foto-noticia {
+    width: 100%;
+    height: 100%;
+    cursor: default;
+    position: relative;
+    box-shadow: 0 2px 4px #0006;
+}
+
+
 .programa-visitas .fotos-noticia .cada-foto-noticia div {
     width: 100%;
+    height: 200px;
     padding: 20px;
     background: var(--color-principal-azul);
     color: #fff;
+    text-align: center;
+}
+
+.programa-visitas .fotos-noticia .cada-foto-noticia .img-programa {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+
+.programa-visitas .fotos-noticia .cada-foto-noticia .img-programa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.programa-visitas .fotos-noticia .cada-foto-noticia .cada-foto-noticia-info {
+    opacity: 0;
+    position: absolute;
+    transition: 0.4s;
+}
+
+
+.programa-visitas .fotos-noticia .cada-foto-noticia:hover .cada-foto-noticia-info {
+    opacity: 1;
+}
+
+
+.programa-visitas .fotos-noticia .cada-foto-noticia div h3 {
+    font-size: 18px;
+    font-family: 'Arial-MT-Bold';
+}
+
+.programa-visitas .fotos-noticia .cada-foto-noticia div p {
+    font-size: 14px;
 }
