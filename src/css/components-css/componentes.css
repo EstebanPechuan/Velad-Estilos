@@ -113,7 +113,8 @@
     color: #fff;
 }
 
-.franja-azul h1 {
+.franja-azul h1,
+.franja-azul h2 {
     font-size: 45px;
     font-family: 'Arial-MT-Bold';
 }

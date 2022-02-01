@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estilos Veladero</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../src/img/fav.png" />
+
+    <!-- Estilos Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icons BoxIcons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Icons Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <!-- Estilos Veladero -->
+    <link rel="stylesheet" href="../../../src/css/style.css" />
+  </head>
+
+  <body>
+    <header class="">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../../../src/img/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../../../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  OPORTUNIDADES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../../oportunidades/oportunidades.html"
+                      >Inicio oportunidades</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Subí tu curriculum</a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../../oportunidades/propuestas_laborales.html"
+                      >Oportunidades laborales</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SUSTENTABILIDAD
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="desarrollo_sustentable.html"
+                      >Desarrollo sustentable</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="seguridad_salud.html"
+                      >Seguridad y Salud</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="medioambiente.html"
+                      >Medioambiente</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../../comunicaciones/comunicaciones.html"
+                  >COMUNICACIONES</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PROVEEDORES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../../proveedores/documentacion_importante.html"
+                      >Documentación importante</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../../proveedores/soporte_proveedores.html"
+                      >Soporte para proveedores</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../../proveedores/consulta_recepciones.html"
+                      >Consulta de recepciones</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="franja-azul">
+      <h2>Procesamiento de pedidos y facturación</h2>
+      <h1>Videos tutoriales</h1>
+    </section>
+
+    <div class="btn-volver">
+      <a href="../soporte_proveedores.html">
+        <i class="bx bx-arrow-back"></i>
+        Volver
+      </a>
+    </div>
+
+    <h3>Pedido de Materiales (Bienes)</h3>
+    <section id="doc-import" class="des-sustentable card-interna-proveedores">
+      <div class="card-sustentabilidad" onclick="openModal();currentSlide(1)">
+        <a href="#c">
+          <img src="../../../src/img/iconos/confirmacion.png" alt="" />
+          <div>Confirmación de orden</div>
+        </a>
+      </div>
+
+      <div class="card-sustentabilidad" onclick="openModal();currentSlide(2)">
+        <a href="#c">
+          <img src="../../../src/img/iconos/envio.png" alt="" />
+          <div>Aviso de envío</div>
+        </a>
+      </div>
+
+      <div class="card-sustentabilidad" onclick="openModal();currentSlide(3)">
+        <a href="#c">
+          <img src="../../../src/img/iconos/recibo.png" alt="" />
+          <div>Facturación</div>
+        </a>
+      </div>
+    </section>
+
+    <h3>Pedido de Servicios</h3>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal-proveedores">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" style="width: 100%" />
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="demo-img">
+          <div class="column">
+            <img class="demo" src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" onclick="currentSlide(1)" alt="Video 1"/>
+          </div>
+  
+          <div class="column">
+            <img class="demo" src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" onclick="currentSlide(2)" alt="Video 2"/>
+          </div>
+  
+          <div class="column">
+            <img class="demo" src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" onclick="currentSlide(3)" alt="Video 3"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <section id="doc-import" class="des-sustentable card-interna-proveedores">
+      <div class="card-sustentabilidad" onclick="openModal2();currentSlide2(1)">
+        <a href="#c">
+          <img src="../../../src/img/iconos/confirmacion.png" alt="" />
+          <div>Confirmación de orden</div>
+        </a>
+      </div>
+
+      <div class="card-sustentabilidad" onclick="openModal2();currentSlide2(2)">
+        <a href="#c">
+          <img src="../../../src/img/iconos/hoja-entrada.png" alt="" />
+          <div>Hoja de entrada de servicios</div>
+        </a>
+      </div>
+
+      <div class="card-sustentabilidad" onclick="openModal2();currentSlide2(3)">
+        <a href="#c">
+          <img src="../../../src/img/iconos/recibo.png" alt="" />
+          <div>Facturación</div>
+        </a>
+      </div>
+    </section>
+
+
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal2" class="modal-proveedores">
+      <span class="close2 cursor" onclick="closeModal2()">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides2">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://images.unsplash.com/photo-1534750750633-c77d43eb7459?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" style="width: 100%" />
+        </div>
+
+        <div class="mySlides2">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://images.unsplash.com/photo-1609346382588-a1e1b3b51019?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" style="width: 100%" />
+        </div>
+
+        <div class="mySlides2">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://images.unsplash.com/photo-1580606564012-266c2342450f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80" style="width: 100%" />
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container2">
+          <p id="caption2"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="demo-img2">
+          <div class="column">
+            <img class="demo2" src="https://images.unsplash.com/photo-1534750750633-c77d43eb7459?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" onclick="currentSlide2(1)" alt="Video 1"/>
+          </div>
+  
+          <div class="column">
+            <img class="demo2" src="https://images.unsplash.com/photo-1609346382588-a1e1b3b51019?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" onclick="currentSlide2(2)" alt="Video 2"/>
+          </div>
+  
+          <div class="column">
+            <img class="demo2" src="https://images.unsplash.com/photo-1580606564012-266c2342450f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80" onclick="currentSlide2(3)" alt="Video 3"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="franja-azul">
+      <h2>Descargas - Documentos en español</h2>
+      <!-- <p>Videos tutoriales</p> -->
+    </section>
+
+    <section class="info-abastecimiento">
+      <div class="descargas">
+        <a href="#c" download="">
+          <img src="../../../src/img/iconos/documento.png" alt="" />
+          <div class="desc-info">
+            <h4>Preguntas frecuentes de los proveedores de Barrick</h4>
+            <p>PDF / ...MB</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="descargas">
+        <a href="#c" download="">
+          <img src="../../../src/img/iconos/documento.png" alt="" />
+          <div class="desc-info">
+            <h4>Pasos para comunicarme con el centro de ayuda de ARIBA</h4>
+            <p>PDF / ...MB</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="descargas">
+        <a href="#c" download="">
+          <img src="../../../src/img/iconos/documento.png" alt="" />
+          <div class="desc-info">
+            <h4>Encontrar y descargar sus facturas de servicio enterprise</h4>
+            <p>PDF / ...MB</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <!-- <div class="footer-head">
+            <div class="footer-menu">
+                <ul class="menu-footer-head">
+                    <li>
+                        Oportunidades Laborales
+                        <ul class="submenu-footer-head">
+                            <li><a href="#">Subí tu currículum</a></li>
+                            <li><a href="#">Trabajá con nosotros</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Sustentabilidad
+                        <ul class="submenu-footer-head">
+                            <li><a href="#">Desarrollo Sustentable</a></li>
+                            <li><a href="#">Seguridad y salud</a></li>
+                            <li><a href="#">Medioambiente</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Comunicaciones
+                        <ul class="submenu-footer-head">
+                            <li><a href="#">Programa de visitas</a></li>
+                            <li><a href="#">Noticias</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Proveedores
+                        <ul class="submenu-footer-head">
+                            <li><a href="#">Documentación importante</a></li>
+                            <li><a href="#">Soporte para proveedores</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contacto">
+                <ul class="menu-footer-contacto">
+                    <li>
+                        San Juan
+                        <ul class="submenu-footer-contacto">
+                            <li><i class='bx bxs-phone'></i><a href="#">+ 54 264 -4298100</a></li>
+                            <li><i class='bx bxs-map'></i><a href="#c">Francisco Villagra 531, Trinidad, San Juan -
+                                    Argentina</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Oficina Iglesia
+                        <ul class="submenu-footer-contacto">
+                            <li><i class='bx bxs-phone'></i><a href="#">+54 2647 -493-180</a></li>
+                            <li><i class='bx bxs-map'></i><a href="#c">Santo Domingo S/N°, Rodeo - Iglesia, San Juan -
+                                    Argentina</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Oficina Jáchal
+                        <ul class="submenu-footer-contacto">
+                            <li><i class='bx bxs-phone'></i><a href="#">+54 2647 -420277</a></li>
+                            <li><i class='bx bxs-map'></i><a href="#c">Calle Rivadavia N°557, San José de Jáchal, San
+                                    Juan - Argentina</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+      <div class="footer-bottom">
+        <div class="footer-logos">
+          <a href="http://barrick.com">
+            <img
+              src="../../../src/img/logos/barrick-logo-white.png"
+              alt="Logo Barrick"
+            />
+          </a>
+          <a href="http://en.sdhjgf.com.cn/">
+            <img
+              src="../../../src/img/logos/shandong-logo-white.svg"
+              alt="Shandong Logo"
+            />
+          </a>
+        </div>
+        <p>© 2021 Veladero</p>
+        <div class="footer-redes">
+          <a href="https://twitter.com/MinaVeladero">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/MinaVeladero">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/mina.veladero/">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/veladero/">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../src/js/main.js"></script>
+
+    <!-- Lightbox -->
+    <script>
+      // Open the Modal
+      function openModal() {
+        document.getElementById("myModal").style.display = "block";
+      }
+
+      // Close the Modal
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+
+
+
+      // Modal2
+
+      function openModal2() {
+        document.getElementById("myModal2").style.display = "block";
+      }
+
+      // Close the Modal
+      function closeModal2() {
+        document.getElementById("myModal2").style.display = "none";
+      }
+
+      var slideIndex2 = 1;
+      showSlides2(slideIndex2);
+
+      // Next/previous controls
+      function plusSlides2(n2) {
+        showSlides2((slideIndex2 += n2));
+      }
+
+      // Thumbnail image controls
+      function currentSlide2(n2) {
+        showSlides2((slideIndex2 = n2));
+      }
+
+      function showSlides2(n2) {
+        var i;
+        var slides2 = document.getElementsByClassName("mySlides2");
+        var dots2 = document.getElementsByClassName("demo2");
+        var captionText2 = document.getElementById("caption2");
+        if (n2 > slides2.length) {
+          slideIndex2 = 1;
+        }
+        if (n2 < 1) {
+          slideIndex2 = slides2.length;
+        }
+        for (i = 0; i < slides2.length; i++) {
+          slides2[i].style.display = "none";
+        }
+        for (i = 0; i < dots2.length; i++) {
+          dots2[i].className = dots2[i].className.replace(" active", "");
+        }
+        slides2[slideIndex2 - 1].style.display = "block";
+        dots2[slideIndex2 - 1].className += " active";
+        captionText2.innerHTML = dots2[slideIndex2 - 1].alt;
+      }
+    </script>
+
+    <!-- Scripts Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -191,3 +191,7 @@ function showSlides4(n) {
     dots[slideIndex4 - 1].className += " active";
     captionText.innerHTML = dots[slideIndex4 - 1].alt;
 }
+
+
+
+// <script>

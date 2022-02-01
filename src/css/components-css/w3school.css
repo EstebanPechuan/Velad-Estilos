@@ -42,7 +42,8 @@
 
 /* Modal Lightbox - w3school */
 /* The Modal (background) */
-.modal {
+.modal,
+.modal2 {
     display: none;
     position: fixed;
     z-index: 10000;
@@ -66,10 +67,12 @@
     padding: 0;
     width: 70%;
     max-width: 1200px;
+    border: none;
 }
 
 /* The Close Button */
-.close {
+.close,
+.close2 {
     color: #fff;
     position: absolute;
     top: 10px;
@@ -79,19 +82,23 @@
 }
 
 .close:hover,
-.close:focus {
+.close:focus,
+.close2:hover,
+.close2:focus {
     color: #999;
     text-decoration: none;
     cursor: pointer;
 }
 
 /* Hide the slides by default */
-.mySlides {
+.mySlides,
+.mySlides2 {
     display: none;
     height: 100%;
 }
 
-.mySlides img {
+.mySlides img,
+.mySlides2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -138,3 +145,90 @@
     position: absolute;
     top: 0;
 }
+
+
+/* Proveedores */
+.modal-proveedores {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    padding: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.modal-proveedores .modal-content {
+    width: 50%;
+    max-width: 1200px;
+    height: 80%;
+    padding: 10px;
+    /* background-color: ; */
+    /* position: relative; */
+}
+
+.modal-proveedores .mySlides,
+.modal-proveedores .mySlides2 {
+    display: none;
+    height: 61.5%;
+}
+
+.modal-proveedores .caption-container,
+.modal-proveedores .caption-container2 {
+    display: flex;
+    align-items: center;
+}
+
+.modal-proveedores .caption-container p,
+.modal-proveedores .caption-container2 p {
+    margin: 0;
+    padding: 10px;
+}
+
+
+.row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Create four equal columns that floats next to eachother */
+  .demo-img,
+  .demo-img2 {
+      width: 100%;
+      display: flex;
+  }
+  .column {
+      width: 33.33%;
+      height: 150px;
+  }
+
+  img.demo,
+  img.demo2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  .active,
+  .demo:hover,
+  .demo2:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }

@@ -1,6 +1,13 @@
 @import url('../fonts.css');
 @import url('../variables.css');
 
+body > h3 {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #0008;
+    font-family: 'Arial-MT-Bold';
+}
+
 .gestion-credenciales .card-veladero-titulo {
     flex-direction: column !important;
     justify-content: center;
@@ -50,10 +57,31 @@
     transform: translate(-50%);
 }
 
+.oport-desplegable:nth-child(1) video {
+    background: #777;
+}
+
+
+
 .oport-desplegable {
     display: none !important;
 }
 
 .oport-desplegable-active {
     display: block !important;
+}
+
+.card-interna-proveedores a {
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.1;
+}
+
+.card-interna-proveedores .card-sustentabilidad:hover {   
+    border: none !important;
+    background: #0001;
+}
+
+.card-interna-proveedores .card-sustentabilidad:hover a {   
+    color: #0006 !important;
 }
