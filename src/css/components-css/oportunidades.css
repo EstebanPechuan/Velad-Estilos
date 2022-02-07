@@ -9,13 +9,16 @@
     background-size: cover;
     background-position: top;
     background-blend-mode: overlay;
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-end; */
 }
 
 .oport-intro {
     width: 60%;
+    position: absolute;
+    top: 65vh;
+    left: 100px;
 }
 
 .oport-intro h1 {
@@ -212,7 +215,7 @@ label[for="file"] i {
     width: 100%;
     padding: 0 70px 50px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 200px;
     place-items: center;
     gap: 20px;

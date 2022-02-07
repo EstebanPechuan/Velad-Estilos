@@ -30,6 +30,10 @@
         display: none;
     }
 
+    .oport-intro {
+        width: 70%;
+    }  
+    
     footer .footer-head {
         padding: 040px;
     }
@@ -76,6 +80,36 @@
         width: 100%;
     }
 
+    .oportunidades-hero {
+        padding: 40px 100px;
+    }    
+    .oport-intro {
+        width: 100%;
+        position: relative;
+        top: 20px;
+        left: 0;
+        padding: 0 40px;
+        text-align: center;
+    }    
+    .oport-intro h1 {
+        color: var(--color-secundario-dorado);
+        font-family: 'Arial-MT-Bold';
+        font-size: 40px;
+    }    
+    .oport-intro p {
+        color: #fff;
+        font-size: 25px;
+        color: #000;
+    }
+
+    .plantilla-oport-left {
+        width: 100%;
+        padding: 0 40px;
+    }
+    .plantilla-oport-right {
+        display: none;
+    }
+
     footer .footer-contacto .menu-footer-contacto {
         flex-direction: column;
         gap: 20px;
@@ -90,6 +124,9 @@
     form .modal-iniciar-inputs {
         gap: 10px;
     }
+    form {
+        gap: 10px;
+    }
     .modal-curriculum {
         width: 100%;
         background: #fff;
@@ -98,6 +135,30 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+    .modal-curriculum h2 {
+        font-size: 30px;
+    }
+    
+    .modal-curriculum p {
+        font-size: 16px;
+    }
+    label[for="file"] {
+        width: 100%;
+    }
+
+    .franja-azul {
+        padding: 20px 40px;
+        text-align: center;
+        color: #fff;
+    }    
+    .franja-azul h1,
+    .franja-azul h2 {
+        font-size: 35px;
+        font-family: 'Arial-MT-Bold';
+    }    
+    .franja-azul p {
+        font-size: 25px;
     }
 }
 
@@ -144,6 +205,15 @@
 
     footer .footer-contacto .menu-footer-contacto {
         padding: 0;
+    }
+
+    .btn-volver {
+        width: fit-content;
+        padding: 30px 40px;
+    }
+
+    .cards-oportunidades {
+        padding: 0 40px 50px;
     }
 }
 
