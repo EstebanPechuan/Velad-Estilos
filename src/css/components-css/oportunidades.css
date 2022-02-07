@@ -33,11 +33,12 @@
 .oport-buttons {
     width: 100%;
     padding: 80px 70px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
     align-items: center;
-    gap: 80px;
-}
+    gap: 20px 80px;
+  }
 
 
 /* Subí tu curriculum */
@@ -74,7 +75,7 @@
 
 form {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -84,8 +85,9 @@ form {
 form .modal-iniciar-inputs {
     width: 100%;
     text-align: center;
-    display: flex;
+    display: grid;
     gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 form .modal-iniciar-inputs input,
@@ -185,7 +187,7 @@ label[for="file"] i {
     position: absolute;
     top: 20px;
     right: 40px;
-    color: #aaaaaa;
+    color: #0006 !important;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -197,7 +199,7 @@ label[for="file"] i {
 .close2:focus,
 .close3:hover,
 .close3:focus {
-    color: #000;
+    color: #000 !important;
     text-decoration: none;
     cursor: pointer;
 }
