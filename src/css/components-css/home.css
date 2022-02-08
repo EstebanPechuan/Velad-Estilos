@@ -131,6 +131,7 @@
     min-height: 300px;
     background: #fff;
     border-radius: 8px;
+    overflow: hidden;
 
     display: flex;
     justify-content: space-between;
@@ -146,6 +147,10 @@
     justify-content: space-between;
     align-items: flex-end;
     flex-direction: column;
+}
+
+.entre-secciones-info.texto-left {
+    text-align: left;
 }
 
 .entre-secciones .entre-secciones-card h3 {

@@ -16,21 +16,21 @@
 
 .noticias-container {
     width: 100%;
-    display: flex;   
+    /* display: flex;    */
 }
 
 .noticias-individual {
-    width: 40%;
-    height: 100vh;
-    padding: 30px 70px;
+    width: 100%;
+    /* height: 100vh; */
+    padding: 30px 50px;
     background: rgba(0, 85, 126, 0.2);
     /* border-right: 2px solid rgba(0, 85, 126, 0.5); */
-    position: sticky;
-    top: 100px;
+    /* position: sticky;
+    top: 100px; */
 }
 
 .noticias-principal {
-    width: 60%;
+    width: 100%;
     padding: 30px 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
