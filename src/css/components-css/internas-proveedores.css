@@ -48,7 +48,8 @@ body > h3 {
 }
 
 .oport-desplegable video {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     height: 500px;
     margin: auto !important;
     background: #ccc;

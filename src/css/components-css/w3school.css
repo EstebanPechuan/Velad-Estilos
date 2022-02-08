@@ -162,18 +162,27 @@
 }
 
 .modal-proveedores .modal-content {
-    width: 50%;
+    width: 80% !important;
     max-width: 1200px;
-    height: 80%;
+    max-height: calc(80% + 10px) !important;
     padding: 10px;
-    /* background-color: ; */
     /* position: relative; */
+    aspect-ratio: 16/9 !important;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65% calc(35% - 10px);
+    row-gap: 10px;
+}
+
+.modal-proveedores .modal-content .mySlideBox {
+    width: 100%;
+    /* height: 65%; */
 }
 
 .modal-proveedores .mySlides,
 .modal-proveedores .mySlides2 {
     display: none;
-    height: 61.5%;
+    height: 100%;
 }
 
 .modal-proveedores .caption-container,
@@ -203,11 +212,12 @@
   .demo-img,
   .demo-img2 {
       width: 100%;
+      /* height: 35%; */
       display: flex;
   }
   .column {
       width: 33.33%;
-      height: 150px;
+      height: 100%;
   }
 
   img.demo,

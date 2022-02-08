@@ -21,6 +21,10 @@
     left: 100px;
 }
 
+.oport-intro.top-50vh {
+    top: 50vh;
+}
+
 .oport-intro h1 {
     color: var(--color-secundario-dorado);
     font-family: 'Arial-MT-Bold';

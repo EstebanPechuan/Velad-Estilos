@@ -51,6 +51,48 @@
         margin-top: 50px;
     }
     
+    .programa-visitas .fotos-noticia .cada-foto-noticia .cada-foto-noticia-info {
+        opacity: 1;
+    }
+
+    .programa-visitas .fotos-noticia .cada-foto-noticia div {
+        background: #0008;
+    }
+    
+    .noticias-container {
+        width: 100%;
+        display: block;
+    }
+      .noticias-individual {
+        width: 100% !important;
+        height: fit-content !important;
+        padding: 30px 50px !important;
+        position: static !important;
+    }
+    .noticias-principal {
+        width: 100% !important;
+        padding: 30px 50px;
+    }
+
+    .modal-proveedores .modal-content {
+        grid-template-rows: 100%;
+    }
+    .modal-proveedores .modal-content .mySlideBox {
+        height: 100%;
+    }
+    .modal-proveedores .mySlides, .modal-proveedores .mySlides2 {
+        height: 100%;
+    }
+
+    .modal-proveedores .caption-container,
+    .modal-proveedores .caption-container2 {
+        display: none;
+    }
+
+    .demo-img, .demo-img2 {
+        display: none;
+    }
+    
     footer .footer-head {
         padding: 0 40px;
     }
@@ -60,6 +102,11 @@
     footer .footer-contacto .menu-footer-contacto {
         padding: 0 40px;
     }
+}
+
+@media (min-width: 830px) {
+    /* .info-requisitos-cards {
+    } */
 }
 
 @media (max-width: 800px) {
@@ -112,14 +159,15 @@
     .oportunidades-hero {
         padding: 40px 100px;
     }    
-    .oport-intro {
+    .oport-intro,
+    .oport-intro.top-50vh {
         width: 100%;
         position: relative;
         top: 20px;
         left: 0;
         padding: 0 40px;
         text-align: center;
-    }    
+    }
     .oport-intro h1 {
         color: var(--color-secundario-dorado);
         font-family: 'Arial-MT-Bold';
