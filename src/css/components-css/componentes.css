@@ -26,8 +26,8 @@
 }
 
 .card-veladero {
-    min-width: 400px;
-    max-width: 500px;
+    /* min-width: 400px;
+    max-width: 500px; */
     height: 100px;
     background: #fff;
     box-shadow: 0 4px 4px #0004;

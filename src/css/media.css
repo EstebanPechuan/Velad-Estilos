@@ -2,7 +2,15 @@
 @import url('../variables.css');
 
 @media (max-width: 1200px) {
-    
+    .tablas-preventivo {
+        flex-direction: column;
+    }
+    .estadisticas-total {
+        width: 100%;
+    }
+    .recup-activos {
+        width: 100%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -32,16 +40,37 @@
 
     .oport-intro {
         width: 70%;
-    }  
+        top: 60vh;
+    }
+
+    .hero-abastecimiento {
+        padding: 0 70px;
+    }
+
+    .info-abastecimiento .fotos-noticia {
+        margin-top: 50px;
+    }
     
     footer .footer-head {
-        padding: 040px;
+        padding: 0 40px;
     }
     footer .menu-footer-head {
         display: none !important;
     }
     footer .footer-contacto .menu-footer-contacto {
         padding: 0 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .tablas-preventivo {
+        touch-action: pan-x;
+        cursor: grab;
+        overflow-y: hidden;
+    }
+    .tablas-preventivo table {
+        min-width: 750px;
+        overflow-x: scroll !important;
     }
 }
 
@@ -109,6 +138,11 @@
     .plantilla-oport-right {
         display: none;
     }
+
+    .compromisos-veladero {
+        columns: 1;
+        column-gap: 30px;
+      }
 
     footer .footer-contacto .menu-footer-contacto {
         flex-direction: column;
@@ -214,6 +248,14 @@
 
     .cards-oportunidades {
         padding: 0 40px 50px;
+    }
+
+    .hero-abastecimiento {
+        padding: 0 40px;
+    }
+
+    .info-abastecimiento {
+        padding: 50px 40px;
     }
 }
 

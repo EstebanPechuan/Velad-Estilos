@@ -37,9 +37,7 @@
     width: 100%;
     padding: 80px 70px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px 80px;
   }
 

@@ -33,23 +33,24 @@
 .sustent-buttons {
     width: 100%;
     padding: 50px 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
-}
+  }
 
 .des-sustentable {
     width: 100%;
-    padding: 0 0 30px;
-    display: flex;
+    padding: 0 40px 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    grid-auto-rows: 150px;
     justify-content: center;
     gap: 25px;
 }
 
 .card-sustentabilidad {
-    width: 150px;
-    aspect-ratio: 1/1;
+    /* width: 150px;
+    aspect-ratio: 1/1; */
     box-shadow: 0 3px 4px #0004;
     border: 1px solid #fff;
     border-radius: 6px;
