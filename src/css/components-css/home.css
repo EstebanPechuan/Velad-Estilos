@@ -108,7 +108,7 @@
 .ver-mas {
     background: transparent;
     border: none;
-    color: var(--color-secundario-dorado);
+    color: #ecb731;
     font-size: 18px;
     margin: auto;
 }
@@ -178,6 +178,15 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.entre-secciones.bg-dark-blue {
+    background: var(--color-principal-azul);
+}
+
+.btn-fill-yellow.bg-dorado {
+    background: #ecb731;
+    border: 2px solid #ecb731;
 }
 
 
