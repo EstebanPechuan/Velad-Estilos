@@ -25,6 +25,12 @@
     color: var(--color-secundario-dorado);
 }
 
+.btn-ghost-blue {
+    background: #fff;
+    border: 2px solid var(--color-principal-azul);
+    color: var(--color-principal-azul) !important;
+}
+
 .card-veladero {
     /* min-width: 400px;
     max-width: 500px; */

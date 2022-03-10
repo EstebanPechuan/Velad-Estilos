@@ -108,7 +108,15 @@
 .ver-mas {
     background: transparent;
     border: none;
-    color: var(--color-secundario-dorado);
+    color: var(--color-principal-azul);
+    font-size: 18px;
+    margin: auto;
+}
+
+.ver-mas-dorado {
+    background: transparent;
+    border: none;
+    color: var(--color-principal-dorado);
     font-size: 18px;
     margin: auto;
 }
@@ -146,17 +154,18 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .entre-secciones-info.texto-left {
     text-align: left;
-    align-items: flex-start ;
+    align-items: flex-start;
 }
 
 .entre-secciones .entre-secciones-card h3 {
     font-size: 40px;
     font-weight: bolder;
+    color: var(--color-principal-dorado);
 }
 
 .entre-secciones .entre-secciones-card p {
@@ -180,6 +189,15 @@
     object-fit: cover;
 }
 
+.entre-secciones.bg-dark-blue {
+    background: var(--color-principal-azul);
+}
+
+.btn-fill-yellow.bg-dorado {
+    background: #ecb731;
+    border: 2px solid #ecb731;
+}
+
 
 /* Camaras en VIVO */
 .cam-vivo {
@@ -188,7 +206,7 @@
 }
 
 .cam-vivo h2 {
-    color: var(--color-secundario-azul);
+    color: var(--color-principal-dorado);
     text-align: center;
     font-size: 40px;
 }
