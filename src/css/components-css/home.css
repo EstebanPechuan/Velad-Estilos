@@ -293,12 +293,12 @@
 }
 
 .velad-slide-01 .carousel-slide-img {
-    background-image: url('https://www.veladero.com/assets/img/slider/camperas-naranjas.jpg');
+    background-image: url('../../img/home/carr-home-1.jpg');
 }
 
 .velad-slide-02 .carousel-slide-img {
-    background-image: url('https://www.veladero.com/assets/img/EstadodelCamino.jpg');
-    background-position: 0 -50px !important;
+    background-image: url('../../img/home/carr-home-2.jpg');
+    /* background-position: 0 -50px !important; */
 }
 
 .velad-slide-02 .carousel-slide-info img  {
@@ -309,14 +309,10 @@
 
 
 .velad-slide-03 .carousel-slide-img {
-    background: url('https://www.veladero.com/assets/img/medioambiente//sustentabilidad-backg.jpg'), linear-gradient(90deg, rgba(58,58,58,0.6786048117648349) 0%, rgba(101,101,101,0.5859081825513519) 23%, rgba(255,255,255,0) 58%);
+    background: url('../../img/home/carr-home-3.jpg'), linear-gradient(90deg, rgba(58,58,58,0.6786048117648349) 0%, rgba(101,101,101,0.5859081825513519) 23%, rgba(255,255,255,0) 58%);
     background-blend-mode: multiply;
 }
 
-.velad-slide-04 .carousel-slide-img {
-    background-image: url('https://www.veladero.com/assets/img/oportunidades/oportunidades-licitaciones1.jpg'), linear-gradient(90deg, rgba(58,58,58,0.6786048117648349) 0%, rgba(101,101,101,0.5859081825513519) 23%, rgba(255,255,255,0) 58%);
-    background-blend-mode: multiply;
-}
 
 .carousel-anim-velad .carousel-items .carousel-slide .carousel-slide-info {
     width: 40%;
