@@ -31,6 +31,12 @@
     color: var(--color-principal-azul) !important;
 }
 
+.btn-ghost-blue:hover {
+    background: var(--color-principal-azul);
+    border: 2px solid var(--color-principal-azul);
+    color: #fff !important;
+}
+
 .card-veladero {
     /* min-width: 400px;
     max-width: 500px; */
